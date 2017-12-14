@@ -1,0 +1,3 @@
+docker run -v /root/docker-prac/dockergo/6jekyll/harvy_blog/:/data/ --name harvy_blog2 harvyxu/jekyll --watch
+comment:
+"--watch" as a parameter put into command in Dockerfile
