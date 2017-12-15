@@ -1,0 +1,192 @@
+[
+    {
+        "Id": "67ab7157efe0bf0a788146c600324a34eec141d41dfaf04e907363308e48a66b",
+        "Created": "2017-12-15T03:07:58.440357411Z",
+        "Path": "/usr/share/tomcat7/bin/catalina.sh",
+        "Args": [
+            "run"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 4966,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2017-12-15T03:07:58.851644562Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:3da243348f6ed3187836750119f07fbcadfa213e7dba63d51e68161bc3113358",
+        "ResolvConfPath": "/var/lib/docker/containers/67ab7157efe0bf0a788146c600324a34eec141d41dfaf04e907363308e48a66b/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/67ab7157efe0bf0a788146c600324a34eec141d41dfaf04e907363308e48a66b/hostname",
+        "HostsPath": "/var/lib/docker/containers/67ab7157efe0bf0a788146c600324a34eec141d41dfaf04e907363308e48a66b/hosts",
+        "LogPath": "",
+        "Name": "/sick_hodgkin",
+        "RestartCount": 0,
+        "Driver": "devicemapper",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "journald",
+                "Config": {}
+            },
+            "NetworkMode": "default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "VolumeDriver": "",
+            "VolumesFrom": [
+                "Calendar"
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": true,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "ShmSize": 67108864,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "KernelMemory": 0,
+            "Memory": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": -1,
+            "OomKillDisable": false,
+            "PidsLimit": 0,
+            "Ulimits": null
+        },
+        "GraphDriver": {
+            "Name": "devicemapper",
+            "Data": {
+                "DeviceId": "588",
+                "DeviceName": "docker-253:0-34278208-dd5e7f79a275ba2f414ea64138b55004e031eec6b55d8812d6cc73143100efdf",
+                "DeviceSize": "10737418240"
+            }
+        },
+        "Mounts": [
+            {
+                "Name": "56af1c51301fca7bba33def3c05245773772938b319cf2560696915039521a5c",
+                "Source": "/var/lib/docker/volumes/56af1c51301fca7bba33def3c05245773772938b319cf2560696915039521a5c/_data",
+                "Destination": "/var/lib/tomcat7/webapps",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "67ab7157efe0",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Tty": true,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "REFRESHED_AT=2016-06-01",
+                "CATALINA_HOME=/usr/share/tomcat7",
+                "CATALINA_BASE=/var/lib/tomcat7",
+                "CATALINA_PID=/var/run/tomcat7.pid",
+                "CATALINA_SH=/usr/share/tomcat7/bin/catalina.sh",
+                "CATALINA_TMPDIR=/tmp/tomcat7-tomcat7-tmp"
+            ],
+            "Cmd": null,
+            "Image": "jamtur01/tomcat7",
+            "Volumes": {
+                "/var/lib/tomcat7/webapps/": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/usr/share/tomcat7/bin/catalina.sh",
+                "run"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "518891d669e105a2694aabb87b15c6cd98d796d70baf067a087e112844b9d57a",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "8080/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "32796"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/518891d669e1",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "b14b1681f5087b9b10e37c97976c4d54a3e5eac8dbc6922547c4b73a8c51b4b3",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.6",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:06",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "efc32e42cbd292f6a03f04b2c01f5ab396bcbf76ca368a776087df76ebfbfc8a",
+                    "EndpointID": "b14b1681f5087b9b10e37c97976c4d54a3e5eac8dbc6922547c4b73a8c51b4b3",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.6",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:11:00:06"
+                }
+            }
+        }
+    }
+]

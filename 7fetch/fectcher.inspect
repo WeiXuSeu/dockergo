@@ -1,0 +1,175 @@
+[
+    {
+        "Id": "934e43fa5d9d1822cecaf150d6b52753c54f77194d4516184d834b4c01cd7010",
+        "Created": "2017-12-14T07:50:58.99763148Z",
+        "Path": "wget",
+        "Args": [
+            "https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war"
+        ],
+        "State": {
+            "Status": "exited",
+            "Running": false,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2017-12-14T07:50:59.329468687Z",
+            "FinishedAt": "2017-12-14T07:50:59.605313492Z"
+        },
+        "Image": "sha256:b2f75296d619bb089ffb4aa3e208ac36b1fb757533c2cfbbc0a3301db0b6659a",
+        "ResolvConfPath": "/var/lib/docker/containers/934e43fa5d9d1822cecaf150d6b52753c54f77194d4516184d834b4c01cd7010/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/934e43fa5d9d1822cecaf150d6b52753c54f77194d4516184d834b4c01cd7010/hostname",
+        "HostsPath": "/var/lib/docker/containers/934e43fa5d9d1822cecaf150d6b52753c54f77194d4516184d834b4c01cd7010/hosts",
+        "LogPath": "",
+        "Name": "/fetcher-v1",
+        "RestartCount": 0,
+        "Driver": "devicemapper",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "journald",
+                "Config": {}
+            },
+            "NetworkMode": "default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "ShmSize": 67108864,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "KernelMemory": 0,
+            "Memory": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": -1,
+            "OomKillDisable": false,
+            "PidsLimit": 0,
+            "Ulimits": null
+        },
+        "GraphDriver": {
+            "Name": "devicemapper",
+            "Data": {
+                "DeviceId": "498",
+                "DeviceName": "docker-253:0-34278208-83f899215e7afd86f560495801d7d7c36bb18af2ba78e8f814a74ac23a949a6c",
+                "DeviceSize": "10737418240"
+            }
+        },
+        "Mounts": [
+            {
+                "Name": "fb6e7940d919034debab825ee0326e4cd015d66259d6803e3618dde0ac74d327",
+                "Source": "/var/lib/docker/volumes/fb6e7940d919034debab825ee0326e4cd015d66259d6803e3618dde0ac74d327/_data",
+                "Destination": "/var/lib/tomcat7/webapps",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "934e43fa5d9d",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": true,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "Tty": true,
+            "OpenStdin": true,
+            "StdinOnce": true,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war"
+            ],
+            "Image": "harvyxu/fetcher-wget",
+            "Volumes": {
+                "/var/lib/tomcat7/webapps": {}
+            },
+            "WorkingDir": "/var/lib/tomcat7/webapps",
+            "Entrypoint": [
+                "wget"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "98f4a53ecd8dbc4a5331e65492f4564dbf75af7a78a24cabd15fefeffaddff44",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": null,
+            "SandboxKey": "/var/run/docker/netns/98f4a53ecd8d",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "efc32e42cbd292f6a03f04b2c01f5ab396bcbf76ca368a776087df76ebfbfc8a",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": ""
+                }
+            }
+        }
+    }
+]

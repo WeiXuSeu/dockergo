@@ -1,0 +1,2 @@
+yum --enablerepo=centos-sclo-rh -y install rh-ruby22
+yum --enablerepo=centos-sclo-rh -y install rh-ruby22-ruby-devel

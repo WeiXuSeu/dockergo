@@ -1,0 +1,1 @@
+docker run --name tomcat7_sample1 --volumes-from fetcher-v1 -d -P harvyxu/tomcat7:v2
