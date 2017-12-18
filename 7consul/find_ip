@@ -1,0 +1,1 @@
+PUBLIC_IP="$(ip r show|grep -v default|grep eth0|cut -d " " -f 12)"
